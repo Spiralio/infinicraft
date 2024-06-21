@@ -19,8 +19,8 @@ Download the mod's jar from `Releases` tab. The mod requires OWO lib and Mod Men
 ### Image Generator Setup
 1. Create an `infinicraft` folder inside of your Minecraft build's `config` folder.
 2. Download `infinicraft-client` and move it anywhere.
-3. Download [Plixel LoRA](https://civitai.com/models/102368/plixel-minecraft) (or any other minecraft item LoRA), put it into `models` folder and rename LoRA file to `lora.safetensors`
-4. Install Python 3.11. Run `pip install -r requirements.txt` in `infinicraft` folder.
+3. Download [Plixel LoRA](https://civitai.com/models/102368/plixel-minecraft) (or any other minecraft item LoRA), put it into `models` folder (next to `script.py`, you have to make it yourself) and rename LoRA file to `lora.safetensors`
+4. Install Python 3.11. Run `pip install -r requirements.txt` in `infinicraft` folder. (NOTE: run `pip install -r requirements_mac.txt` instead if on MacOS)
 5. Run the `clear.py` script before first launch.
 6. Launch the `script.py`.
    P.S. On launch, script will download SD1.5 weights, it would take ~5 GB.

@@ -2,8 +2,7 @@ diffusers
 transformers>=4.34.0
 peft>=0.6.0
 torch
-rembg[gpu]
+rembg
 accelerate
-xformers
 PIL
 numpy
